@@ -1,4 +1,12 @@
 # curso_py_pip
 Repositorio creado para el curso de Platzi de python: PIP y entornos visuales
 
-# steps
+# Game project
+
+Para correr el juego debes seguir las siguientes instrucciones en la terminal:
+
+```sh
+cd game
+python3 game.py
+```
+
