@@ -21,6 +21,6 @@ def read_csv(path):
 
 
 if __name__ == '__main__':
-  data = csv_read('./app/data.csv')
+  data = csv_read('data.csv')
   print(data)
   
