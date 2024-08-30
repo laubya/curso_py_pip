@@ -1,4 +1,4 @@
-# curso_py_pip
+# Curso_py_pip
 Repositorio creado para el curso de Platzi de python: PIP y entornos visuales
 
 # Game project
@@ -16,6 +16,7 @@ Para contribuir en la app de creación de graficas  debes seguir las siguientes 
 ```sh
 git clone 
 cd app
+python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 game.py
