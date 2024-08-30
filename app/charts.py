@@ -7,12 +7,12 @@ def generate_bar_chart(name, labels, values):
   plt.savefig(f'./imgs/{name}bar_chart.png')  # Guardar el gráfico en lugar de mostrarlo
   plt.close()
 
-def generate_pie_chart(labels, values):
+def generate_pie_chart(name, labels, values):
   print('Generando pie chart')
   fig, ax = plt.subplots()
   ax.pie(values, labels=labels)
   ax.axis('equal')
-  plt.savefig('./imgs/pie_chart.png')  # Guardar el gráfico en lugar de mostrarlo
+  plt.savefig(f'./imgs/{name}_pie_chart.png')  # Guardar el gráfico en lugar de mostrarlo
   plt.close()
 
 if __name__ == '__main__':
