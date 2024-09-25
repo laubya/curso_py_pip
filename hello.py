@@ -1,15 +1,21 @@
 print('Hola desde mi compu')
 
-
-def solution(num)
+def solution(num):
     counter = 0
-    if num//2 = 0
-        while num > 1
-            num = num / 2
-            counter +=1
-    else num = num+1
-        while num > 1 
-            num = num / 2
-            counter +=1
+    
+    # Ajustamos el número según si es par o impar
+    if num % 2 == 0:
+        while num > 1:
+            num /= 2
+            counter += 1
+    else:
+        num += 1
+        while num > 1:
+            num /= 2
+            counter += 1
+    
     return counter
 
+# Ejemplo de uso
+resultado = solution(5)
+print(f'El resultado es: {resultado}')
